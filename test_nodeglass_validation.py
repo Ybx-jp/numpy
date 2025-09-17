@@ -28,3 +28,6 @@ def test_function():
 # - TestGraphValidation.validate_symbol_extraction (method)
 # - TestGraphValidation.test_line_drift_handling (method)
 # - test_function (function)
+def additional_test_function():
+    """Second function to test multi-commit PR→COMMIT edges"""
+    return 'multi-commit-test'
